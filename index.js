@@ -22,7 +22,7 @@ function dec(n) {
   return n - 1;
 }
 
-function makeInt(string) {
+function makeInt(string, 10) {
   return parseInt(string);
 }
 
