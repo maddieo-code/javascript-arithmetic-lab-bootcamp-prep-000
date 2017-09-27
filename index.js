@@ -22,8 +22,8 @@ function dec(n) {
   return n - 1;
 }
 
-function makeInt(string, 10) {
-  return parseInt(string);
+function makeInt(string, n) {
+  return parseInt(string, 10);
 }
 
 function preserveDecimal(n) {
